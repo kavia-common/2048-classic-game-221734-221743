@@ -4,6 +4,8 @@
 #include <QWidget>
 #include <QPropertyAnimation>
 #include <QPainterPath>
+#include <QPaintEvent>
+#include <QRectF>
 
 /**
  * PUBLIC_INTERFACE

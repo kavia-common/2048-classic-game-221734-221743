@@ -4,6 +4,9 @@
 #include <QWidget>
 #include <QVector>
 #include <QPainterPath>
+#include <QPaintEvent>
+#include <QResizeEvent>
+#include <QRect>
 
 class TileWidget;
 

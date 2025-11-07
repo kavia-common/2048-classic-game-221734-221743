@@ -1,13 +1,19 @@
 #ifndef GAMEVIEW_H
 #define GAMEVIEW_H
 
+// Core Qt includes for this class; keep explicit to prevent MOC/type errors
 #include <QMainWindow>
+#include <QWidget>
 #include <QPushButton>
 #include <QLabel>
+#include <QHBoxLayout>
+#include <QVBoxLayout>
+#include <QTimer>
 #include <QPoint>
 #include <QVector>
 #include <QKeyEvent>
 #include <QMouseEvent>
+#include <QKeyEvent>
 
 class GridWidget;
 class ScorePanel;
