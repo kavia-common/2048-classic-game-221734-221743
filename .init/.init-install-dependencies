@@ -1,4 +1,4 @@
 {
-    "command": "sudo apt-get update && sudo apt-get install -y qt6-base-dev qt6-base-dev-tools cmake build-essential",
+    "command": "sudo apt-get update && sudo apt-get install -y qt6-base-dev qt6-base-dev-tools cmake build-essential xvfb",
     "working_directory": "/home/kavia/workspace/code-generation/2048-classic-game-221734-221743/native_2048_app"
 }

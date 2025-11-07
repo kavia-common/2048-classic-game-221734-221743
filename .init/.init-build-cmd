@@ -1,4 +1,4 @@
 {
-    "command": "cmake --build build",
+    "command": "mkdir -p build && cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j$(nproc)",
     "working_directory": "/home/kavia/workspace/code-generation/2048-classic-game-221734-221743/native_2048_app"
 }
