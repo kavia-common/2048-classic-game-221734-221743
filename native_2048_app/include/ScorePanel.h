@@ -2,8 +2,8 @@
 #define SCOREPANEL_H
 
 #include <QWidget>
-
-class QLabel;
+#include <QLabel>
+#include <QHBoxLayout>
 
 /**
  * PUBLIC_INTERFACE
