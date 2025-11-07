@@ -1,16 +1,13 @@
-#ifndef WELCOME_H
-#define WELCOME_H
+#ifndef MAINAPP_H
+#define MAINAPP_H
 
-#include <QWidget>
+#include <QApplication>
 
-class QLabel;
+/**
+ * PUBLIC_INTERFACE
+ * main entry for the 2048 application using Qt6 Widgets.
+ * Creates the QApplication and shows the GameView window.
+ */
+int main(int argc, char *argv[]);
 
-class WelcomeWidget : public QWidget
-{
-    Q_OBJECT
-
-public:
-    explicit WelcomeWidget(QWidget *parent = nullptr);
-};
-
-#endif // WELCOME_H
+#endif // MAINAPP_H
