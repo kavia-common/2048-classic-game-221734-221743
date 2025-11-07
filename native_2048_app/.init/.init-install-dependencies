@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Update apt and install required build and runtime dependencies for Qt Widgets apps
+# Includes XKB packages necessary for keyboard handling and headless run via xvfb
+export DEBIAN_FRONTEND=noninteractive
+
+apt-get update
+
+apt-get install -y --no-install-recommends \
+  build-essential cmake ninja-build pkg-config \
+  libxkbcommon-dev libxkbcommon-x11-dev libxkbcommon0 libxkbcommon-x11-0 xkb-data \
+  xvfb
+
+# Note: Cleanup of apt lists is intentionally omitted in this CI environment
+# to comply with sandbox safety restrictions on rm -rf usage.

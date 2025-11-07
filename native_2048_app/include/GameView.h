@@ -1,7 +1,11 @@
 #ifndef GAMEVIEW_H
 #define GAMEVIEW_H
 
-// Core Qt includes for this class; keep explicit to prevent MOC/type errors
+/*
+ Core Qt includes for this class; keep explicit to prevent MOC/type errors.
+ Avoid forward declarations for QObject-derived members to ensure MOC and
+ compiler see complete types in the header.
+*/
 #include <QMainWindow>
 #include <QWidget>
 #include <QPushButton>
@@ -13,7 +17,6 @@
 #include <QVector>
 #include <QKeyEvent>
 #include <QMouseEvent>
-#include <QKeyEvent>
 
 class GridWidget;
 class ScorePanel;
