@@ -12,6 +12,7 @@
 #include <QLabel>
 #include <QHBoxLayout>
 #include <QVBoxLayout>
+#include <QSpacerItem>
 #include <QTimer>
 #include <QPoint>
 #include <QVector>

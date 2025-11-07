@@ -8,8 +8,9 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update
 
 apt-get install -y --no-install-recommends \
-  build-essential cmake ninja-build pkg-config \
+  build-essential cmake ninja-build pkg-config git xauth \
   libxkbcommon-dev libxkbcommon-x11-dev libxkbcommon0 libxkbcommon-x11-0 xkb-data \
+  qt6-base-dev qt6-base-dev-tools \
   xvfb
 
 # Note: Cleanup of apt lists is intentionally omitted in this CI environment
