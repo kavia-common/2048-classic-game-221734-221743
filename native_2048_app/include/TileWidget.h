@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPropertyAnimation>
+#include <QPainterPath>
 
 /**
  * PUBLIC_INTERFACE

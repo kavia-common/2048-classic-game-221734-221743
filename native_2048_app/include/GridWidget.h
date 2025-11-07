@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QVector>
+#include <QPainterPath>
 
 class TileWidget;
 

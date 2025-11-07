@@ -2,6 +2,12 @@
 #define GAMEVIEW_H
 
 #include <QMainWindow>
+#include <QPushButton>
+#include <QLabel>
+#include <QPoint>
+#include <QVector>
+#include <QKeyEvent>
+#include <QMouseEvent>
 
 class GridWidget;
 class ScorePanel;
